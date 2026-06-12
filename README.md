@@ -23,7 +23,9 @@ pip install -r requirements.txt
 export GOOGLE_API_KEY="your-free-gemini-key"
 ```
 
-You're given `notes.json` — four business notes. **One of them is poisoned** with an injected instruction. Work in `pipeline.py` or a notebook.
+You're given `notes.json` — four business notes. **One of them is poisoned** with an injected instruction.
+
+> **No starter code — you build it from scratch.** There's no template in this repo; create your own working file(s) and write the code yourself. This close to the end of the bootcamp, scaffolding your own project is part of the exercise.
 
 ## Your Task
 
