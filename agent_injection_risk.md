@@ -1,0 +1,3 @@
+# Agent Injection Risk
+
+An injection through input data is significantly more dangerous for an agent than for a plain chatbot because agents are designed to execute automated workflows, communicate with other agents, and take tangible actions (such as making API calls or modifying data). If a plain chatbot is hijacked, the worst outcome is typically just returning an inappropriate response to the user. However, if an agent is hijacked, the injected instructions can take over its entire execution flow, allowing the attacker to derail downstream processes, exfiltrate sensitive data, or force the system to perform malicious actions autonomously.
